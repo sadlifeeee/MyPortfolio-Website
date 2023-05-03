@@ -1,0 +1,11 @@
+.footerText {
+    font-size: 1.2vw;
+}
+
+#footerWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}

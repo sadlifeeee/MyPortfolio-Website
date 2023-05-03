@@ -1,0 +1,79 @@
+#contactWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2vw;
+    font-weight: 700;
+    align-items: center;
+}
+
+#contactTitle > span {
+    margin-right: 3%;
+
+}
+
+#contactDivider {
+    margin-left: 3%;
+    width: 77%;
+}
+
+#contactContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+#contactPhoto{
+    width: 27vw;
+    object-fit: contain;
+}
+
+#contactTextWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#hyperlinks {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#contactTextWrapper > span {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.contactHyperLink {
+    height: 50px;
+    object-fit: contain;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#btnWrapper {
+    display: flex;
+    align-self: center;
+}
+
+.contactBtn {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 20px;
+    color: #003300;
+    font-size: 20px;
+}
+
+#btnWrapper :hover {
+    cursor: pointer;
+}

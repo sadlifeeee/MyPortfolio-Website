@@ -1,0 +1,56 @@
+.hidden {
+    transform : translateY(-82.6px);
+}
+
+.nav { 
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 9999;
+  opacity: 98%;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+}
+
+hr {
+    margin: 0;
+    height: 1px;
+    color: #333;
+    background-color: #333;
+}
+
+#navWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 15px 20px;
+    top: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+#navLinks {
+    display: flex;
+    margin-left: auto;
+}
+
+#navLinks > li {
+    padding: 20px;
+    text-decoration: none;
+    list-style : none;
+    font-size: 20px;
+}
+
+#navLinks > li > a {
+    display: flex;
+    color: black;
+    font-weight: 500;
+}
+
+#navLogo {
+    margin-right: auto;
+    font-weight: bold;
+    max-width: 175px;
+    object-fit: contain;
+    height: 90px;
+}

@@ -1,0 +1,61 @@
+
+/* Whole Introduction*/
+#introPage {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100vh;
+}
+
+/* First Half (Text) */
+#introText {
+    text-align:center;
+    margin-top: 50px;
+    width: 60%;
+}
+
+.introLogo {
+    object-fit: contain;
+    width: 50px;
+    padding: 0px 10px;
+}
+
+#nameTitle {
+    font-weight: 400;
+    font-size: 3.5vw;
+}
+
+#nameText{
+    font-weight: 800;
+}
+
+#nameIntro {
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin: 0px 50px;
+    padding-bottom: 20px;
+    white-space: nowrap;
+}
+
+.nameQuote {
+    font-weight: 400;
+    font-size: 1.5vw;
+    white-space:nowrap;
+    padding-bottom: 20px;
+    line-height: 1.3;
+}
+
+
+
+/* Second Half (Photo) */
+#introPhoto {
+    display: inline-block;
+    width: 40%;
+    margin-top: 40px;
+}
+
+#homePhoto {
+    width: 27vw;
+    object-fit: contain;
+}
