@@ -13,8 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   overflow-x: hidden;
-  overflow: hidden;
-  overscroll-behavior-y: none;
+  overflow: scroll;
+  overscroll-behavior: none;
 }
 
 a {

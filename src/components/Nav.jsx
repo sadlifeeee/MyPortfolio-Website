@@ -10,11 +10,11 @@ function Nav() {
 
   const removeNavBar = () => {
     
-    if(lastScrollY < window.scrollY) {
+    if(lastScrollY < window.scrollY || lastScrollY === 0) {
       setNavBar(true);
     } else {
       setNavBar(false);
-    }
+    } 
 
     lastScrollY = window.scrollY;
   };
