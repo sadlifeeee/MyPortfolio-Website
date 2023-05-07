@@ -5,8 +5,9 @@ import logo from '../assets/logo_second.png'
 function Nav() {
 
   const [navBar, setNavBar] = useState(false);
+  const [hamberg, setHamberg] = useState(false);
   let lastScrollY = window.scrollY;
-  
+
   const removeNavBar = () => {
     
     if(lastScrollY < window.scrollY) {
@@ -18,6 +19,10 @@ function Nav() {
     lastScrollY = window.scrollY;
   };
 
+  const toggleNavLinks = () => {
+    setHamberg(!hamberg)
+  }
+
   window.addEventListener('scroll' , removeNavBar);
 
   return (
@@ -26,7 +31,13 @@ function Nav() {
       <div id = "navWrapper">
         <img src = {logo} id = "navLogo" />
 
-        <ul id = "navLinks">
+        <a href="javascript:void(0)" role="button" class = "toggle-button" onClick = {toggleNavLinks}>
+          <span class = "bar"></span>
+          <span class = "bar"></span>
+          <span class = "bar"></span>
+        </a>
+
+        <ul className = {hamberg ? 'navLinks' : 'navLinks active'}>
             <li><a href = "#">Home</a></li>
             
             <li><a href = "#">About</a></li>

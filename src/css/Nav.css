@@ -23,34 +23,91 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    padding: 15px 20px;
-    top: 0;
     font-family: Montserrat, sans-serif;
 }
 
-#navLinks {
+.navLinks {
     display: flex;
-    margin-left: auto;
+    margin: 0;
+    padding: 0;
 }
 
-#navLinks > li {
-    padding: 20px;
-    text-decoration: none;
+.navLinks > li {
     list-style : none;
     font-size: 20px;
 }
 
-#navLinks > li > a {
-    display: flex;
+.navLinks > li > a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
     color: black;
     font-weight: 500;
 }
 
+.navLinks > li :hover {
+    color:#30d870;
+}
+
 #navLogo {
-    margin-right: auto;
-    font-weight: bold;
-    max-width: 175px;
     object-fit: contain;
-    height: 90px;
+    height: 85px;
+    margin-left: 1rem
+}
+
+.toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display : none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button :hover {
+    cursor: pointer;
+}
+
+.toggle-button .bar {
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 550px) and (min-width: 0px) {
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navLinks > li {
+        /*display: none;*/
+        width: 100%;
+        text-align: center;
+        padding: .5 rem 1rem;
+    }
+
+    .active {
+        display: none;
+        transition: transform 0.2s;
+    }
+
+    .navLinks > li > a {
+        /*display: none;*/
+        padding: .7rem 1rem;
+    }
+
+    #navWrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navLinks {
+        flex-direction: column;
+        width: 100%;
+    }
+
 }
