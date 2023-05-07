@@ -9,6 +9,10 @@
   
 }
 
+body {
+  overscroll-behavior-y: none;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
