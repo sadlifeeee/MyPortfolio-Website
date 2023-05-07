@@ -24,7 +24,20 @@ function Projects() {
                     
                     <div className = "projectHyperLinks">
                         <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
-                        <a href = "#"><img src = {externalLink} className = "projectSmallPhoto" /></a>
+                    </div>
+                    
+                </div>
+            
+                <span className = "projectName">Discord Bot</span>
+                <span className = "projectInfo">A discord music bot</span>
+                <span className = "projectLibrary">JavaScript Node.js</span>
+            </div>
+
+            <div className = "singleProject">
+                <div className = "projectPhotos">
+                    <img src = {defaultProject} className = "projectBigPhoto" />
+                    <div className = "projectHyperLinks">
+                        <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
                     </div>
                     
                 </div>
@@ -40,23 +53,6 @@ function Projects() {
                     
                     <div className = "projectHyperLinks">
                         <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
-                        <a href = "#"><img src = {externalLink} className = "projectSmallPhoto" /></a>
-                    </div>
-                    
-                </div>
-            
-                <span className = "projectName">Discord Bot</span>
-                <span className = "projectInfo">A discord music bot</span>
-                <span className = "projectLibrary">JavaScript Node.js</span>
-            </div>
-
-            <div className = "singleProject">
-                <div className = "projectPhotos">
-                    <img src = {defaultProject} className = "projectBigPhoto" />
-                    
-                    <div className = "projectHyperLinks">
-                        <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
-                        <a href = "#"><img src = {externalLink} className = "projectSmallPhoto" /></a>
                     </div>
                     
                 </div>
