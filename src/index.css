@@ -12,9 +12,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  overflow-x: hidden;
-  overflow: scroll;
-  overscroll-behavior: none;
 }
 
 a {
@@ -33,6 +30,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overscroll-behavior-y: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 h1 {
