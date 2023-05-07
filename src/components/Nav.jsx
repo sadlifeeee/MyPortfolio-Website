@@ -1,20 +1,23 @@
 import React, {useState} from 'react'
 import '../css/Nav.css'
 import logo from '../assets/logo_second.png'
+import { useScrollDirection } from '../js/useScrollDirection';
 
 function Nav() {
 
   const [navBar, setNavBar] = useState(false);
   const [hamberg, setHamberg] = useState(false);
   let lastScrollY = window.scrollY;
+  const scrollDirection = useScrollDirection();
 
   const removeNavBar = () => {
     
-    if(lastScrollY < window.scrollY || lastScrollY === 0) {
+    if(scrollDirection === "down") {
       setNavBar(true);
     } else {
       setNavBar(false);
     } 
+
 
     lastScrollY = window.scrollY;
   };
