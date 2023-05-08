@@ -55,6 +55,18 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
+.card > div  :hover{
+    transition: none;
+    box-shadow: none;
+    transform: none;
+}
+
+.card :hover {
+    transition: 25ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 9px 18px, rgba(0, 0, 0, 0.22) 0px 9px 6px;
+    transform: translateY(-2px);
+}
+
 .projectPhotos {
     display: flex;
 }
@@ -108,6 +120,10 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
+#showMoreBtn :hover {
+    color: #30d870
+}
+
 #buttonWrapper :hover {
     cursor: pointer;
 }
@@ -120,6 +136,44 @@
 .hideProject {
     display: none;
 }
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
 
 
 @media only screen and (max-width: 699px) and (min-width: 0px) {

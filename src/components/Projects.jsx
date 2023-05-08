@@ -37,7 +37,9 @@ function Projects() {
           </div>
 
           <div id = "projectContent">
-              <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
+
+            <div className = "card">
+                <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
@@ -52,8 +54,10 @@ function Projects() {
                   <span className = "projectInfo">A discord music bot that could help you play your favorite music from Youtube and Spotify on discord</span>
                   <span className = "projectLibrary">Node.js Discord.js JS</span>
               </div>
-
-              <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
+            </div>
+              
+            <div className = "card">
+                <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos" >
                       <img src = {defaultProject} className = "projectBigPhoto" />
                       <div className = "projectHyperLinks">
@@ -67,8 +71,10 @@ function Projects() {
                   <span className = "projectInfo">My Portfolio Website</span>
                   <span className = "projectLibrary">Vite React JS HTML CSS</span>
               </div>
-
-              <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
+            </div>
+              
+            <div className = "card">
+                <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
@@ -82,8 +88,10 @@ function Projects() {
                   <span className = "projectInfo">An android app that could help you keep track of your daily expenses</span>
                   <span className = "projectLibrary">Android Studio Java</span>
               </div>
-
-              <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
+            </div>
+              
+            <div className = "card">
+                <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
@@ -97,8 +105,10 @@ function Projects() {
                   <span className = "projectInfo">An android app that could help you keep track of your daily expenses</span>
                   <span className = "projectLibrary">Android Studio Java</span>
               </div>
-
-              <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
+            </div>
+              
+            <div className = "card">
+                <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
@@ -112,8 +122,10 @@ function Projects() {
                   <span className = "projectInfo">An android app that could help you keep track of your daily expenses</span>
                   <span className = "projectLibrary">Android Studio Java</span>
               </div>
-
-              <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
+            </div>
+              
+            <div className = "card">
+                <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
@@ -127,8 +139,10 @@ function Projects() {
                   <span className = "projectInfo">An android app that could help you keep track of your daily expenses</span>
                   <span className = "projectLibrary">Android Studio Java</span>
               </div>
-
-              <div className = {showMore ? 'singleProject' : 'singleProject hideProject'} data-aos="fade-up" data-aos-once="true">
+            </div>
+              
+            <div className = "card">
+                <div className = {showMore ? 'animated fadeInUp singleProject' : 'singleProject hideProject'}>
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
@@ -142,7 +156,8 @@ function Projects() {
                   <span className = "projectInfo">An android app that could help you keep track of your daily expenses</span>
                   <span className = "projectLibrary">Android Studio Java</span>
               </div>
-
+            </div>
+              
           </div>
 
           <div id = "buttonWrapper" data-aos="fade-up" data-aos-once="true">
