@@ -1,9 +1,15 @@
-import React, {useState} from 'react'
+import React, {useState , useEffect} from 'react'
 import '../css/Nav.css'
 import logo from '../assets/logo_second.png'
 import { useScrollDirection } from '../js/useScrollDirection';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Nav() {
+
+  useEffect(() => {
+        AOS.init();
+    }, []);
 
   const [navBar, setNavBar] = useState(false);
   const [hamberg, setHamberg] = useState(false);
@@ -34,18 +40,18 @@ function Nav() {
       <div id = "navWrapper">
         <img src = {logo} id = "navLogo" />
 
-        <a href="javascript:void(0)" role="button" class = "toggle-button" onClick = {toggleNavLinks}>
-          <span class = "bar"></span>
-          <span class = "bar"></span>
-          <span class = "bar"></span>
+        <a role="button" className = "toggle-button" onClick = {toggleNavLinks} data-aos="fade-down" data-aos-once="true" data-aos-delay="200">
+          <span className = "bar"></span>
+          <span className = "bar"></span>
+          <span className = "bar"></span>
         </a>
 
         <ul className = {hamberg ? 'navLinks' : 'navLinks active'}>
-            <li><a href = "#">Home</a></li>
+            <li><a href = "#" data-aos="fade-down" data-aos-once="true" data-aos-delay="300">Home</a></li>
             
-            <li><a href = "#">About</a></li>
+            <li><a href = "#" data-aos="fade-down" data-aos-once="true" data-aos-delay="400">About</a></li>
             
-            <li><a href = "#">Contact</a></li>
+            <li><a href = "#" data-aos="fade-down" data-aos-once="true" data-aos-delay="500">Contact</a></li>
         </ul>
       </div>
 

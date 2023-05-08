@@ -2,6 +2,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    transition: transform 0.2s;
 }
 
 
@@ -34,7 +35,7 @@
     display: grid;
     margin-top: 30px;
     grid-template-columns: auto auto auto;
-    gap: 10px 80px;
+    gap: 40px 80px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -111,9 +112,13 @@
     cursor: pointer;
 }
 
-#showMoreText{
+.showMoreText{
     color: #003300;
     font-size: 20px;
+}
+
+.hideProject {
+    display: none;
 }
 
 
