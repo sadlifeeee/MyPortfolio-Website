@@ -24,6 +24,7 @@ function Projects() {
                     
                     <div className = "projectHyperLinks">
                         <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
+                        <a href = "#"><img src = {externalLink} className = "projectSmallPhoto" /></a>
                     </div>
                     
                 </div>
@@ -38,6 +39,7 @@ function Projects() {
                     <img src = {defaultProject} className = "projectBigPhoto" />
                     <div className = "projectHyperLinks">
                         <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
+                        <a href = "#"><img src = {externalLink} className = "projectSmallPhoto" /></a>
                     </div>
                     
                 </div>
@@ -53,6 +55,7 @@ function Projects() {
                     
                     <div className = "projectHyperLinks">
                         <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
+                        <a href = "#"><img src = {externalLink} className = "projectSmallPhoto" /></a>
                     </div>
                     
                 </div>

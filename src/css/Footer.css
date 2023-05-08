@@ -1,5 +1,6 @@
 .footerText {
-    font-size: 1.2vw;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #footerWrapper {
@@ -8,4 +9,18 @@
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 699px) and (min-width: 0px) {
+    .footerText {
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 700px) {
+    .footerText {
+        font-size: 21px;
+        font-weight: 600;
+    }
 }

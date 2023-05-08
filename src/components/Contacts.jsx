@@ -28,11 +28,11 @@ function Contacts() {
                 <div id = "hyperlinks">
                     <a href = "#"><img src = {linkedin} className = "contactHyperLink" /></a>
 
+                    <a href = "#"><img src = {discord} className = "contactHyperLink" /></a>
+
                     <a href = "#"><img src = {twitter} className = "contactHyperLink" /></a>
 
                     <a href = "#"><img src = {github} className = "contactHyperLink" /></a>
-
-                    <a href = "#"><img src = {discord} className = "contactHyperLink" /></a>
                 </div>
                 
                 <div id = "btnWrapper">

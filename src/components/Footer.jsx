@@ -8,7 +8,7 @@ function Footer() {
         
         <span className = "footerText">Designed and Created By Jerickson Lee</span>
         
-        <span className = "footerText">Updated on May 2, 2023</span>
+        <span className = "footerText">Updated on May 8, 2023</span>
     
     </div>
   )
