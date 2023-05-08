@@ -4,6 +4,8 @@ import logo from '../assets/logo_second.png'
 import { useScrollDirection } from '../js/useScrollDirection';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import {handleScrollToHome , handleScrollToProject , handleScrollToContact} from '../js/scrollToPlace'
+
 
 function Nav() {
 
@@ -47,11 +49,13 @@ function Nav() {
         </a>
 
         <ul className = {hamberg ? 'navLinks' : 'navLinks active'}>
-            <li><a href = "#" data-aos="fade-down" data-aos-once="true" data-aos-delay="300">Home</a></li>
-            
+            <li><a onClick={handleScrollToHome} data-aos="fade-down" data-aos-once="true" data-aos-delay="300">Home</a></li>
+
             <li><a href = "#" data-aos="fade-down" data-aos-once="true" data-aos-delay="400">About</a></li>
+
+            <li><a onClick={handleScrollToProject} data-aos="fade-down" data-aos-once="true" data-aos-delay="500">Project</a></li>
             
-            <li><a href = "#" data-aos="fade-down" data-aos-once="true" data-aos-delay="500">Contact</a></li>
+            <li><a onClick={handleScrollToContact} data-aos="fade-down" data-aos-once="true" data-aos-delay="600">Contact</a></li>
         </ul>
       </div>
 

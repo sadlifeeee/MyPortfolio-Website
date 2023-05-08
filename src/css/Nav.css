@@ -49,6 +49,7 @@ hr {
 
 .navLinks > li :hover {
     color:#30d870;
+    cursor: pointer;
 }
 
 #navLogo {
