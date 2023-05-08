@@ -87,6 +87,8 @@
 .projectLibrary {
     margin-top: auto;
     font-size: 15px;
+    color: #30d870;
+    font-weight: 600;
 }
 
 #buttonWrapper {

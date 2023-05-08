@@ -23,30 +23,30 @@ function Projects() {
                     <img src = {defaultProject} className = "projectBigPhoto" />
                     
                     <div className = "projectHyperLinks">
-                        <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
-                        <a href = "#"><img src = {externalLink} className = "projectSmallPhoto" /></a>
+                        <a href = "https://github.com/sadlifeeee/Boom-Box" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
+                        <a href = "https://discord.com/api/oauth2/authorize?client_id=890246640890445844&permissions=8&scope=bot" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto" /></a>
                     </div>
                     
                 </div>
             
-                <span className = "projectName">Discord Bot</span>
-                <span className = "projectInfo">A discord music bot</span>
-                <span className = "projectLibrary">JavaScript Node.js</span>
+                <span className = "projectName">Boom-Box</span>
+                <span className = "projectInfo">A discord music bot that could help you play your favorite music from Youtube and Spotify on discord</span>
+                <span className = "projectLibrary">Node.js Discord.js JS</span>
             </div>
 
             <div className = "singleProject">
                 <div className = "projectPhotos">
                     <img src = {defaultProject} className = "projectBigPhoto" />
                     <div className = "projectHyperLinks">
-                        <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
-                        <a href = "#"><img src = {externalLink} className = "projectSmallPhoto" /></a>
+                        <a href = "https://github.com/sadlifeeee/MyPortfolio-Website" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
+                        <a href = "https://jericksonlee.netlify.app/" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto" /></a>
                     </div>
                     
                 </div>
             
-                <span className = "projectName">Discord Bot</span>
-                <span className = "projectInfo">A discord music bot</span>
-                <span className = "projectLibrary">JavaScript Node.js</span>
+                <span className = "projectName">This.Portfolio</span>
+                <span className = "projectInfo">My Portfolio Website</span>
+                <span className = "projectLibrary">Vite React JS HTML CSS</span>
             </div>
 
             <div className = "singleProject">
@@ -54,15 +54,14 @@ function Projects() {
                     <img src = {defaultProject} className = "projectBigPhoto" />
                     
                     <div className = "projectHyperLinks">
-                        <a href = "#"><img src = {github} className = "projectSmallPhoto" /></a>
-                        <a href = "#"><img src = {externalLink} className = "projectSmallPhoto" /></a>
+                        <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
                     </div>
                     
                 </div>
             
-                <span className = "projectName">Discord Bot</span>
-                <span className = "projectInfo">A discord music bot</span>
-                <span className = "projectLibrary">JavaScript Node.js</span>
+                <span className = "projectName">Eco Round</span>
+                <span className = "projectInfo">An android app that could help you keep track of your daily expenses</span>
+                <span className = "projectLibrary">Android Studio Java</span>
             </div>
 
         </div>
