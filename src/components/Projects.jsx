@@ -69,7 +69,7 @@ function Projects() {
 
                   <span className = "projectName">This.Portfolio</span>
                   <span className = "projectInfo">My Portfolio Website</span>
-                  <span className = "projectLibrary">Vite React JS HTML CSS</span>
+                  <span className = "projectLibrary">Vite  React  JS  HTML CSS</span>
               </div>
             </div>
               

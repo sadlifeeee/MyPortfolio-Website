@@ -41,8 +41,13 @@ function Contacts() {
                   </div>
                   
                   <div id = "btnWrapper">
-                      <button className = "contactBtn">Email Me</button>
-                      <button className = "contactBtn">Download CV</button>
+                      <button className = "contactBtn">
+                        <a className = "contactBtnText" href = "mailto:jericksonlee10@gmail.com">Email Me</a>
+                      </button>
+
+                      <button className = "contactBtn">
+                        <a className = "contactBtnText">Download CV</a>
+                      </button>
                   </div>
     
               </div>
