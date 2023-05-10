@@ -75,7 +75,7 @@
 
     #aboutText {
         margin-left: 0px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     #aboutTitle > span{ 
@@ -91,7 +91,7 @@
 
     #aboutSkillList {
         gap: 5px 5px;
-        width: 370px;
+        width: 350px;
     }
 
 }
