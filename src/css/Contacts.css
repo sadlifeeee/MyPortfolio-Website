@@ -91,15 +91,6 @@
 
 @media only screen and (max-width: 699px) and (min-width: 0px) {
 
-    #contactTitle > span {
-        margin-right: 3%;
-    }
-
-    #contactDivider {
-        margin-left: 1.2%;
-        width: 45%;
-    }
-
     #contactTitle {
         font-size: 32px;
     }
@@ -116,11 +107,6 @@
 
 @media only screen and (max-width: 1280px) and (min-width: 700px) {
 
-
-    #contactDivider {
-        margin-left: 1.2%;
-        width: 60%;
-    }
 
     #contactTitle {
         font-size: 32px;

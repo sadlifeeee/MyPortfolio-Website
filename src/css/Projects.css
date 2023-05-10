@@ -178,20 +178,8 @@
 
 @media only screen and (max-width: 699px) and (min-width: 0px) {
 
-    .projectDivider {
-        width: 30%;
-    }
-
-    #dividerLeft{
-        margin-left: 3%;
-    }
-
-    #dividerRight{
-        margin-right: 3%;
-    }
-
     #projectTitle {
-        font-size: 25px;
+        font-size: 32px;
     }
 
     #projectContent {
@@ -213,17 +201,6 @@
 
 @media only screen and (max-width: 1280px) and (min-width: 700px) {
 
-    .projectDivider {
-        width: 35%;
-    }
-
-    #dividerLeft{
-        margin-left: 3%;
-    }
-
-    #dividerRight{
-        margin-right: 3%;
-    }
 
     #projectTitle {
         font-size: 32px;
