@@ -51,6 +51,7 @@
     height: 350px;
     align-self: center;
     margin-right: 130px;
+    margin-left: 50px;
 }
 
 #aboutSkillList {
@@ -114,7 +115,8 @@
     }
 
     #aboutPhoto {
-        height: 200px
+        height: 200px;
+        margin-left: 0px;
     }
 
 }
