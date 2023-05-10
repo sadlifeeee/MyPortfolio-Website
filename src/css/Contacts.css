@@ -6,19 +6,20 @@
 #contactTitle {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     font-size: 32px;
     font-weight: 700;
+    width: 90%;
     align-items: center;
+    align-self: center;
 }
 
 #contactTitle > span {
-    margin-right: 3%;
+    margin-left: 5%;
+    white-space: nowrap;
 }
 
 #contactDivider {
-    margin-left: 3%;
-    width: 77%;
+    width: 100%;
 }
 
 #contactContent {
@@ -100,7 +101,7 @@
     }
 
     #contactTitle {
-        font-size: 25px;
+        font-size: 32px;
     }
 
     #contactPhoto{

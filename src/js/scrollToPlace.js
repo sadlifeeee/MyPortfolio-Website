@@ -27,6 +27,16 @@ const handleScrollToContact = () => {
     }
 }
 
-export {handleScrollToHome , handleScrollToProject, handleScrollToContact}
+const handleScrollToAbout = () => {
+    const element = document.getElementById('aboutWrapper');
+    const yOffset = -90; 
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset
+
+    if (element) {
+        window.scrollTo({top: y, behavior: 'smooth'});
+    }
+}
+
+export {handleScrollToHome , handleScrollToProject, handleScrollToContact, handleScrollToAbout}
 
   

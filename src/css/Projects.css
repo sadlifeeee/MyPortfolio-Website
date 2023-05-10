@@ -11,23 +11,23 @@
 #projectTitle {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
+    width: 90%;
     align-items: center;
+    align-self: center;
 }
 
 .projectDivider {
-    width: 40%;
+    width: 100%;
 }
 
-#dividerLeft{
-    margin-left: 3%;
+#projectTitle > span {
+    margin-left: 5%;
+    margin-right: 5%;
+    white-space: nowrap;
 }
 
-#dividerRight{
-    margin-right: 3%;
-}
 
 /* Project Main Content */
 
