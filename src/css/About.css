@@ -40,6 +40,7 @@
     margin-top: 30px;
     font-size: 18px;
     margin-bottom: 50px;
+    margin-right: 50px;
 }
 
 .aboutBoldText {
@@ -77,6 +78,7 @@
     #aboutText {
         margin-left: 0px;
         font-size: 13px;
+        margin-right: 0px;
     }
 
     #aboutTitle > span{ 
@@ -109,6 +111,7 @@
     #aboutText {
         margin-left: 0px;
         font-size: 15px;
+        margin-right: 15px;
     }
 
     #aboutTitle > span{ 

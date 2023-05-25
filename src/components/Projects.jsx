@@ -90,7 +90,7 @@ function Projects() {
               </div>
             </div>
               
-            <div className = "card">
+            <div className = "card" hidden>
                 <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
@@ -107,7 +107,7 @@ function Projects() {
               </div>
             </div>
               
-            <div className = "card">
+            <div className = "card" hidden>
                 <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
@@ -124,7 +124,7 @@ function Projects() {
               </div>
             </div>
               
-            <div className = "card">
+            <div className = "card" hidden>
                 <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
@@ -141,7 +141,7 @@ function Projects() {
               </div>
             </div>
               
-            <div className = "card">
+            <div className = "card" hidden>
                 <div className = {showMore ? 'animated fadeInUp singleProject' : 'singleProject hideProject'}>
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
@@ -161,7 +161,7 @@ function Projects() {
           </div>
 
           <div id = "buttonWrapper" data-aos="fade-up" data-aos-once="true">
-              <button id = "showMoreBtn" onClick = {toggleMore}>
+              <button id = "showMoreBtn" onClick = {toggleMore} hidden>
                   <span className = "showMoreText">{showMoreText}</span>
               </button>
           </div>

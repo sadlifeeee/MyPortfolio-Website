@@ -21,12 +21,13 @@ function About() {
 
             <div id = 'aboutContentWrapper' data-aos='fade-up' data-aos-once='true'>
                 <div id = "aboutText" data-aos='fade-up' data-aos-once='true'>
-                    <p>
-                        Hello! Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>
-                        Nullam ligula lorem, faucibus dictum ante sed. <br/>
-                        Aliquam molestie ligula orci, ac lacinia neque rhoncus a. <br/>
-                        Donec in ante justo. Vivamus eros est, <br/>
-                        tristique eget magna vel, aliquet ornare turpis. <br/>
+                    <p id = "aboutInfo">
+                        <br />
+                        Hello, my name is <span className = "aboutBoldText">Jerickson</span> and I am a graduating computer science student 
+                        who is about to embark on an exciting journey into the professional world. <br /> <br />
+                        I have spent my academic years honing my skills and immersing myself in the ever-evolving world of coding. 
+                        Through my comprehensive coursework and hands-on projects, I have gained a solid foundation in <span className = "aboutBoldText">computer 
+                        science principles</span>, <span className = "aboutBoldText">algorithms</span>, and <span className = "aboutBoldText">programming languages</span>, all of which have prepared me to excel in the field.<br/>
                     </p>
                     <span id = "aboutSkillTitle">Here are some technologies that I've worked with as a <span className = "aboutBoldText">CS student:</span></span>
 
