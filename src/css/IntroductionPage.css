@@ -22,6 +22,22 @@
     padding: 0px 10px;
 }
 
+.github:hover {
+    content: url('../assets/githubHover.png');
+}
+
+.linkedin:hover {
+    content: url('../assets/linkedinHover.png');
+}
+
+.twitter:hover {
+    content: url('../assets/twitterHover.png');
+}
+
+.discord:hover {
+    content: url('../assets/discordHover.png');
+}
+
 #nameTitle {
     font-weight: 400;
     font-size: 60px;

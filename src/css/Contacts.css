@@ -88,6 +88,22 @@
     list-style: none;
 }
 
+.github:hover {
+    content: url('../assets/githubHover.png');
+}
+
+.linkedin:hover {
+    content: url('../assets/linkedinHover.png');
+}
+
+.twitter:hover {
+    content: url('../assets/twitterHover.png');
+}
+
+.discord:hover {
+    content: url('../assets/discordHover.png');
+}
+
 
 @media only screen and (max-width: 699px) and (min-width: 0px) {
 

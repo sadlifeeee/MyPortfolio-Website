@@ -121,7 +121,7 @@
 }
 
 #showMoreBtn :hover {
-    color: #30d870
+    color: #30d870;
 }
 
 #buttonWrapper :hover {
@@ -136,6 +136,17 @@
 .hideProject {
     display: none;
 }
+
+.github:hover {
+    content: url('../assets/githubHover.png');
+}
+
+.externalLink:hover {
+    content: url('../assets/external_linkHover.png');
+}
+
+
+
 
 /* Animation */
 

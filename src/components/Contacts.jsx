@@ -31,13 +31,13 @@ function Contacts() {
                   <span>My inbox is always open, I will reply within 24 hours.</span>
     
                   <div id = "hyperlinks">
-                      <a href = "https://www.linkedin.com/in/jerickson-lee-3b0069235/" target="_blank" rel="noopener noreferrer"><img src = {linkedin} className = "contactHyperLink" /></a>
+                      <a href = "https://www.linkedin.com/in/jerickson-lee-3b0069235/" target="_blank" rel="noopener noreferrer"><img src = {linkedin} className = "contactHyperLink linkedin" /></a>
     
-                      <a href = "https://discordapp.com/users/453485970151702539" target="_blank" rel="noopener noreferrer"><img src = {discord} className = "contactHyperLink" /></a>
+                      <a href = "https://discordapp.com/users/453485970151702539" target="_blank" rel="noopener noreferrer"><img src = {discord} className = "contactHyperLink discord" /></a>
     
-                      <a href = "#" target="_blank" rel="noopener noreferrer"><img src = {twitter} className = "contactHyperLink" /></a>
+                      <a href = "#" target="_blank" rel="noopener noreferrer" hidden><img src = {twitter} className = "contactHyperLink twitter" /></a>
     
-                      <a href = "https://github.com/sadlifeeee" target="_blank" rel="noopener noreferrer"><img src = {github} className = "contactHyperLink" /></a>
+                      <a href = "https://github.com/sadlifeeee" target="_blank" rel="noopener noreferrer"><img src = {github} className = "contactHyperLink github" /></a>
                   </div>
                   
                   <div id = "btnWrapper">

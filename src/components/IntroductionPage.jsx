@@ -23,13 +23,13 @@ function IntroductionPage() {
 
             <h3 className = "nameQuote" data-aos="fade-down" data-aos-once="true" data-aos-delay="800">"A passionate individual that loves everything about"<br/>computers.</h3>
             
-            <a href = "https://www.linkedin.com/in/jerickson-lee-3b0069235/" target="_blank" rel="noopener noreferrer" data-aos="fade-down" data-aos-once="true" data-aos-delay="900"><img src = {linkedIn} className = "introLogo"/></a>
+            <a href = "https://www.linkedin.com/in/jerickson-lee-3b0069235/" target="_blank" rel="noopener noreferrer" data-aos="fade-down" data-aos-once="true" data-aos-delay="900"><img src = {linkedIn} className = "introLogo linkedin"/></a>
 
-            <a href = "https://discordapp.com/users/453485970151702539" target="_blank" rel="noopener noreferrer" data-aos="fade-down" data-aos-once="true" data-aos-delay="900"><img src = {discord} className = "introLogo"/></a>
+            <a href = "https://discordapp.com/users/453485970151702539" target="_blank" rel="noopener noreferrer" data-aos="fade-down" data-aos-once="true" data-aos-delay="900"><img src = {discord} className = "introLogo discord"/></a>
 
-            <a href = "#" target="_blank" rel="noopener noreferrer" data-aos="fade-down" data-aos-once="true" data-aos-delay="900"><img src = {twitter} className = "introLogo"/></a>
+            <a href = "#" target="_blank" rel="noopener noreferrer" data-aos="fade-down" data-aos-once="true" data-aos-delay="900" hidden><img src = {twitter} className = "introLogo twitter"/></a>
             
-            <a href = "https://github.com/sadlifeeee" target="_blank" rel="noopener noreferrer" data-aos="fade-down" data-aos-once="true" data-aos-delay="900"><img src = {github} className = "introLogo"/></a>
+            <a href = "https://github.com/sadlifeeee" target="_blank" rel="noopener noreferrer" data-aos="fade-down" data-aos-once="true" data-aos-delay="900"><img src = {github} className = "introLogo github"/></a>
 
         </div>
 

@@ -44,8 +44,8 @@ function Projects() {
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
                       <div className = "projectHyperLinks">
-                          <a href = "https://github.com/sadlifeeee/Boom-Box" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
-                          <a href = "https://discord.com/api/oauth2/authorize?client_id=890246640890445844&permissions=8&scope=bot" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto" /></a>
+                          <a href = "https://github.com/sadlifeeee/Boom-Box" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
+                          <a href = "https://discord.com/api/oauth2/authorize?client_id=890246640890445844&permissions=8&scope=bot" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto externalLink" /></a>
                       </div>
 
                   </div>
@@ -61,8 +61,8 @@ function Projects() {
                   <div className = "projectPhotos" >
                       <img src = {defaultProject} className = "projectBigPhoto" />
                       <div className = "projectHyperLinks">
-                          <a href = "https://github.com/sadlifeeee/MyPortfolio-Website" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
-                          <a href = "https://jericksonlee.netlify.app/" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto" /></a>
+                          <a href = "https://github.com/sadlifeeee/MyPortfolio-Website" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
+                          <a href = "https://jericksonlee.netlify.app/" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto externalLink" /></a>
                       </div>
 
                   </div>
@@ -79,7 +79,7 @@ function Projects() {
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
                       <div className = "projectHyperLinks">
-                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
+                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
                       </div>
 
                   </div>
@@ -96,7 +96,7 @@ function Projects() {
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
                       <div className = "projectHyperLinks">
-                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
+                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
                       </div>
 
                   </div>
@@ -113,7 +113,7 @@ function Projects() {
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
                       <div className = "projectHyperLinks">
-                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
+                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
                       </div>
 
                   </div>
@@ -130,7 +130,7 @@ function Projects() {
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
                       <div className = "projectHyperLinks">
-                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
+                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
                       </div>
 
                   </div>
@@ -147,7 +147,7 @@ function Projects() {
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
                       <div className = "projectHyperLinks">
-                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto" /></a>
+                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
                       </div>
 
                   </div>
