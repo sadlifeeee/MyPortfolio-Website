@@ -3,6 +3,7 @@ import '../css/About.css'
 import examplePersonPhoto from '../assets/examplePersonPhoto.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import aboutImage from '../assets/aboutImage.jpg'
 
 function About() {
 
@@ -50,7 +51,7 @@ function About() {
             
                 </div>
 
-                <img src = {examplePersonPhoto} id = "aboutPhoto"/>
+                <img src = {aboutImage} id = "aboutPhoto"/>
             </div>
             
         
