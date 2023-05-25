@@ -138,11 +138,11 @@
 }
 
 .github:hover {
-    content: url('../assets/githubHover.png');
+    content: url('../assets/githubHover.webp');
 }
 
 .externalLink:hover {
-    content: url('../assets/external_linkHover.png');
+    content: url('../assets/external_linkHover.webp');
 }
 
 

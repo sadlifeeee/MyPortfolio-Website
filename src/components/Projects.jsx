@@ -1,9 +1,9 @@
 import React, {useState , useEffect} from 'react'
 import '../css/Projects.css'
-import discord from '../assets/discord.png'
-import externalLink from '../assets/external_link.png'
-import github from '../assets/github.png'
-import defaultProject from '../assets/defaultProject.png'
+import discord from '../assets/discord.webp'
+import externalLink from '../assets/external_link.webp'
+import github from '../assets/github.webp'
+import defaultProject from '../assets/defaultProject.webp'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 

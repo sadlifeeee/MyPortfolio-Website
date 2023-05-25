@@ -23,19 +23,19 @@
 }
 
 .github:hover {
-    content: url('../assets/githubHover.png');
+    content: url('../assets/githubHover.webp');
 }
 
 .linkedin:hover {
-    content: url('../assets/linkedinHover.png');
+    content: url('../assets/linkedinHover.webp');
 }
 
 .twitter:hover {
-    content: url('../assets/twitterHover.png');
+    content: url('../assets/twitterHover.webp');
 }
 
 .discord:hover {
-    content: url('../assets/discordHover.png');
+    content: url('../assets/discordHover.webp');
 }
 
 #nameTitle {
