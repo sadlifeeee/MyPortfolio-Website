@@ -3,7 +3,7 @@ import '../css/About.css'
 import examplePersonPhoto from '../assets/examplePersonPhoto.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import aboutImage from '../assets/aboutImage.jpg'
+import aboutImage from '../assets/aboutImage.webp'
 
 function About() {
 

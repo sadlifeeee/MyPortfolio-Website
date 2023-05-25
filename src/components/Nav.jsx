@@ -1,6 +1,6 @@
 import React, {useState , useEffect} from 'react'
 import '../css/Nav.css'
-import logo from '../assets/logo_second.png'
+import logo from '../assets/logo_second.webp'
 import { useScrollDirection } from '../js/useScrollDirection';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
