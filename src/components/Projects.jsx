@@ -105,7 +105,7 @@ function Projects() {
 
                   <span className = "projectName">Collaborative</span>
                   <span className = "projectInfo">An application meant for team collaboration projects using a Kanban Board. </span>
-                  <span className = "projectLibrary">React JS HTML CSS Node.js MongoDB</span>
+                  <span className = "projectLibrary">React JS Node.js MongoDB</span>
               </div>
             </div>
               
