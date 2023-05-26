@@ -80,6 +80,7 @@ function Projects() {
 
                       <div className = "projectHyperLinks">
                           <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
+                          <a href = "https://jericksonlee.netlify.app/" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto externalLink" /></a>
                       </div>
 
                   </div>
@@ -90,20 +91,21 @@ function Projects() {
               </div>
             </div>
               
-            <div className = "card" hidden>
+            <div className = "card">
                 <div className = "singleProject" data-aos="fade-up" data-aos-once="true">
                   <div className = "projectPhotos">
                       <img src = {defaultProject} className = "projectBigPhoto" />
 
                       <div className = "projectHyperLinks">
-                          <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
+                          <a href = "https://github.com/sadlifeeee/Collaborative-KANBAN" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
+                          <a href = "https://collaborative-work.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto externalLink" /></a>
                       </div>
 
                   </div>
 
-                  <span className = "projectName">Eco Round</span>
-                  <span className = "projectInfo">An android app that could help you keep track of your daily expenses</span>
-                  <span className = "projectLibrary">Android Studio Java</span>
+                  <span className = "projectName">Collaborative</span>
+                  <span className = "projectInfo">An application meant for team collaboration projects using a Kanban Board. </span>
+                  <span className = "projectLibrary">React JS HTML CSS Node.js MongoDB</span>
               </div>
             </div>
               
@@ -114,6 +116,7 @@ function Projects() {
 
                       <div className = "projectHyperLinks">
                           <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
+                          <a href = "https://collaborative-work.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto externalLink" /></a>
                       </div>
 
                   </div>
