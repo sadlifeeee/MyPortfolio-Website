@@ -80,7 +80,6 @@ function Projects() {
 
                       <div className = "projectHyperLinks">
                           <a href = "https://github.com/sadlifeeee/Eco_Round" target="_blank" rel="noopener noreferrer"><img src = {github} className = "projectSmallPhoto github" /></a>
-                          <a href = "https://jericksonlee.netlify.app/" target="_blank" rel="noopener noreferrer"><img src = {externalLink} className = "projectSmallPhoto externalLink" /></a>
                       </div>
 
                   </div>
@@ -104,7 +103,7 @@ function Projects() {
                   </div>
 
                   <span className = "projectName">Collaborative</span>
-                  <span className = "projectInfo">An application meant for team collaboration projects using a Kanban Board. </span>
+                  <span className = "projectInfo">A web application meant for team collaboration projects using a Kanban Board. </span>
                   <span className = "projectLibrary">React JS Node.js MongoDB</span>
               </div>
             </div>
