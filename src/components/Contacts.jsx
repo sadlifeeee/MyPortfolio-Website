@@ -41,11 +41,11 @@ function Contacts() {
                   </div>
                   
                   <div id = "btnWrapper">
-                      <button className = "contactBtn">
+                      <button className = "contactBtn" id = "btnEmail">
                         <a className = "contactBtnText" href = "mailto:jericksonlee10@gmail.com">Email Me</a>
                       </button>
 
-                      <button className = "contactBtn">
+                      <button className = "contactBtn" id = "btnCV">
                         <a className = "contactBtnText">Download CV</a>
                       </button>
                   </div>

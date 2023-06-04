@@ -65,6 +65,7 @@
     align-self: center;
 }
 
+
 .contactBtn {
     padding: 20px;
     border-radius: 10px;
@@ -78,6 +79,10 @@
 }
 
 #btnWrapper :hover {
+    cursor: pointer;
+}
+
+#btnWrapper :hover > a {
     cursor: pointer;
     color: #30d870;
 }
