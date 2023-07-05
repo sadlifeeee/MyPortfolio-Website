@@ -46,7 +46,7 @@ function Contacts() {
                       </button>
 
                       <button className = "contactBtn" id = "btnCV">
-                        <a className = "contactBtnText">Download CV</a>
+                        <a className = "contactBtnText" href="../assets/Jerickson-Resume.pdf" download>Download CV</a>
                       </button>
                   </div>
     
